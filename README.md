@@ -9,7 +9,7 @@ This project is powered by the LowLevelNetworking package written by my long-tim
 
 ## Quick Setup Guide
 1. Install \*.cardpack files
-	- Refer to the Installing Card Packs section for information on creating and installing card packs
+	- Refer to the [Installing Card Packs](https://github.com/AdamEaton/KardsAgainstKrews#installing-card-packs) section for information on creating and installing card packs
 2. The host player should start the game and select `HOST GAME` (creating the Server Instance)
 	- The host player must enable port forwarding to their device on port 7777 (if not already enabled) to enable remote connections
 3. The remaining players (and the host, if they're playing) should each launch an instance of the game and select `JOIN GAME` (creating a Client Instance for each player)
@@ -19,7 +19,7 @@ This project is powered by the LowLevelNetworking package written by my long-tim
 	- For remote players, the external IP address displayed in the Server Instance should be entered
 5. Each player should choose a display name to finalize their registration
 6. Once all players are registered, the host may set the game configuration and start the game
-	- Refer to the Game Metrics section for information on the effects of the different options
+	- Refer to the [Game Metrics](https://github.com/AdamEaton/KardsAgainstKrews#game-metrics) section for information on the effects of the different options
 
 ## Gameplay
 Each round proceeds as follows:
@@ -57,6 +57,6 @@ A \*.cardpack file is parsed line-by-line. The first line is the pack's display 
 - Each additional blank after the first will require an additional response card from players, as well as cause them to draw an additional card before responding
 - Prompts and responses can both include `~` characters, which will be automatically replaced with a randomly chosen player's name
 - Prompts and responses can also use Unity's UI.Text rich formatting options
-	- The most commonly used formatting is <i>italics</i> for emphasis
+	- The most commonly used formatting is \<i\>italics\</i\> for emphasis
 
 For convenience, the included `Template.cardpack` file also explains and demonstrates this formatting.
