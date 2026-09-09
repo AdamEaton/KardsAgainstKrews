@@ -1,0 +1,16 @@
+Your Card Pack Display Name Goes Here
+Starting on this line, each line functions as a black "prompt" card.
+As a result, newline characters cannot be part of a card's text.
+Traditionally, most prompt cards contain one "blank" to fill in.
+These blanks are denoted by adding _ anywhere in the prompt.
+You can add as many as you'd like to a prompt.
+For example, build a shopping list: _ _ _ _ _
+Add ~ anywhere in a prompt to add a random player's name to the text.
+There is also rich text support for <i>emphasis</i> and <color=#8000FF>flavour</color>.
+After all your prompts have been added, leave one blank line.
+
+Then, on the next line, add the first response card.
+Just as with prompts, each subsequent line is interpreted as another response.
+Blanks don't have a place in response cards, but you can still use <i>emphasis</i> and include ~ for player names.
+Don't include any more blank lines in the file - only the one immediately preceding the first response.
+The last line of the file is the last response card in the pack.

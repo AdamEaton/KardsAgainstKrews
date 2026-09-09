@@ -104,3 +104,6 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+Kards Against Krews/Library/
+Kards Against Krews/obj/
+Kards Against Krews/Temp/
